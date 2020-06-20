@@ -456,6 +456,7 @@ body{
     display: flex;
   }
   .search-input{
+    
     width: 260px;
     height:50px;
     border-radius:5px;
@@ -510,10 +511,33 @@ body{
     width: 100%;
   }
   .search-input, .film-text{
-    order:1;
+    order:-1;
     margin-bottom: 0;
   }
- 
+  .card{
+    flex-basis:100%;
+    margin-bottom: 20px;  
+  }
+  .card-image{
+    width: 60px;
+    height:60px;
+  }
+  .tabs{
+    margin-bottom: 35px;
+  }
+  .cast{
+    padding-bottom: 50px;
+  }
+ .swiper-slide{
+   flex-basis: 100%;
+   padding-right:35px;
+ }
+ .news-card{
+  padding-right:40px;
+ }
+ .button-next{
+  background-color: #fff;
+ }
   
 }
 
